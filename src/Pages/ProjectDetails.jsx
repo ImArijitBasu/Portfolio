@@ -40,7 +40,7 @@ const ProjectDetails = () => {
   } = project;
 
   return (
-    <div className="mt-28 px-3 ">
+    <div className="py-40 px-3 ">
       <div className="flex flex-col md:flex-row gap-5">
         <div className="border-8 border-blue-900 md:w-2/5 rounded-lg">
           <img src={image} alt="" />
