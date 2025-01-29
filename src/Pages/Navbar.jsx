@@ -63,7 +63,7 @@ const Navbar = () => {
   </div>
   <div className="navbar-end">
     <a
-      href="https://drive.google.com/file/d/1_Shs75NiN06ghalA79tWExKZHZWXosFG/view?usp=sharing"
+      href="https://drive.google.com/file/d/1PeQ4zS_2dHBO2VY9LbirPprkwmO1rMk9/view?usp=drive_link"
       target="_blank"
       rel="noopener noreferrer"
     >

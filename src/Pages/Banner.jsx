@@ -5,7 +5,7 @@ import { FaFacebook } from "react-icons/fa6";
 const Banner = () => {
   return (
     <div>
-      <div className="flex border-r-8 flex-col md:flex-row justify-center items-center pt-24 rounded-b-3xl border-blue-700 ">
+      <div className="flex border-r-8 flex-col md:flex-row justify-center items-center pt-24 rounded-b-3xl lg:rounded-none border-blue-700 ">
         <div className="flex flex-col md:w-1/2 justify-center items-start pl-2 md:pl-10 space-y-3">
           <h1 className="capitalize text-blue-900 font-extrabold text-5xl">
             <span className="text-blue-500">MERN</span> stack developer
@@ -46,7 +46,7 @@ const Banner = () => {
           <div className="">
             {" "}
             <a
-              href="https://drive.google.com/file/d/1_Shs75NiN06ghalA79tWExKZHZWXosFG/view?usp=sharing"
+              href="https://drive.google.com/file/d/1PeQ4zS_2dHBO2VY9LbirPprkwmO1rMk9/view?usp=drive_link"
               target="_blank"
               download
               rel="noopener noreferrer"
