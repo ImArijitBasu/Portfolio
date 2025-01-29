@@ -10,7 +10,9 @@ const Banner = () => {
           <h1 className="capitalize text-blue-900 font-extrabold text-5xl">
             <span className="text-blue-500">MERN</span> stack developer
           </h1>
-          <h3 className="capitalize text-blue-500 text-lg">front end specialist</h3>
+          <h3 className="capitalize text-blue-500 text-lg">
+            front end specialist
+          </h3>
           <div className="flex flex-row gap-2">
             <a
               href="https://www.facebook.com/originaljit"
@@ -23,7 +25,7 @@ const Banner = () => {
             </a>
 
             <a
-              href="https://github.com/ImArijitBasu" 
+              href="https://github.com/ImArijitBasu"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -55,8 +57,14 @@ const Banner = () => {
             </a>
           </div>
         </div>
-        <div className="md:w-1/2 border-b-8 rounded-3xl bg-gradient-to-t from-blue-500 via-transparent to-transparent border-orange-300">
-          <img src="/myImage.png" alt="" />
+        <div className="md:w-1/2 border-b-8 rounded-3xl lg:rounded-bl-full bg-gradient-to-t from-blue-500 via-transparent to-transparent border-orange-300">
+          <div className="w-96 h-96 border rounded-full overflow-hidden flex items-center justify-center group">
+            <img
+              className="w-[130%] h-[130%] object-cover object-center transition-transform duration-300 ease-in-out group-hover:scale-150"
+              src="/myImage2.jpg"
+              alt="Profile"
+            />
+          </div>
         </div>
       </div>
     </div>

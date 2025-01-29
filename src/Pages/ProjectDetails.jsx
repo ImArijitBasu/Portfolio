@@ -43,7 +43,7 @@ const ProjectDetails = () => {
     <div className="py-40 px-3 ">
       <div className="flex flex-col md:flex-row gap-5">
         <div className="border-8 border-blue-900 md:w-2/5 rounded-lg">
-          <img src={image} alt="" />
+          <img className="object-cover h-full w-full" src={image} alt="" />
         </div>
         <div className="md:w-3/5 flex flex-col justify-around items-center">
           <div className="">

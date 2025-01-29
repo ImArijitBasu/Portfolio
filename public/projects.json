@@ -1,57 +1,86 @@
 [
-    {
-      "id": "1",
-      "name": "Chill Gamer",
-      "image": "https://i.ibb.co.com/7zmYs8F/chillgamer.png",
-      "description": "A review platform for gamers to share and find game reviews.",
-      "techStack": ["Vue.js", "Firebase", "Express.js", "MongoDB"],
-      "liveLink": "https://assignment-10-arijit.web.app/",
-      "githubLink": "https://github.com/programming-hero-web-course2/b10-a10-client-side-ImArijitBasu",
-      "challenges": [
-        "Implementing a secure authentication system.",
-        "Managing user-generated content effectively."
-      ],
-      "improvements": [
-        "Introduce a recommendation system based on user preferences.",
-        "Optimize performance for high user traffic."
-      ],
-      "detailedDescription": "Chill Gamer provides a space for gamers to review and explore games. It includes a user-friendly interface, robust authentication, and moderation tools for managing reviews."
-    },
-    {
-      "id": "2",
-      "name": "Discount PRO",
-      "image": "https://i.ibb.co.com/56CVKtZ/discount.png",
-      "description": "A coupon collecting application to save on shopping.",
-      "techStack": ["React.js", "Tailwind CSS", "Firebase", "MongoDB"],
-      "liveLink": "https://discount-pro-89559.web.app/",
-      "githubLink": "https://github.com/programming-hero-web-course1/b10-a9-authentication-ImArijitBasu",
-      "challenges": [
-        "Synchronizing coupon availability in real-time.",
-        "Creating a dynamic dashboard for analytics."
-      ],
-      "improvements": [
-        "Add personalized coupon suggestions.",
-        "Integrate with third-party e-commerce APIs."
-      ],
-      "detailedDescription": "Discount PRO helps users save on their shopping by collecting and managing coupons. It features a real-time coupon tracker, analytics dashboard, and user-friendly design."
-    },
-    {
-      "id": "3",
-      "name": "RentRide",
-      "image": "https://i.ibb.co.com/X2N3MCp/Capture.png",
-      "description": "A car rental system offering seamless booking and management.",
-      "techStack": ["React.js", "Node.js", "Express.js", "MongoDB", "Firebase Authentication"],
-      "liveLink": "https://rentride-assignment-11.web.app/",
-      "githubLink": "https://github.com/programming-hero-web-course2/b10a11-client-side-ImArijitBasu",
-      "challenges": [
-        "Implementing real-time availability of vehicles.",
-        "Integrating Firebase Authentication with role-based access control."
-      ],
-      "improvements": [
-        "Develop a feature to calculate and display estimated rental costs in real time.",
-        "Add support for additional payment methods and coupons."
-      ],
-      "detailedDescription": "RentRide is a car rental platform that enables users to browse available cars, book them online, and manage bookings efficiently. The admin panel allows for easy car management, and the system ensures security through Firebase Authentication. Its responsive design ensures compatibility across devices."
-    }
-  ]
-  
+  {
+    "id": "1",
+    "name": "Urban Shelter",
+    "image": "https://i.ibb.co.com/7zmYs8F/chillgamer.png",
+    "description": "A building rent management system streamlining landlord-tenant interactions.",
+    "techStack": [
+      "React.js",
+      "Next.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB"
+    ],
+    "liveLink": "https://urban-shelter-building.web.app/",
+    "githubLink": "https://github.com/ImArijitBasu/Urban_Shelter-client",
+    "challenges": [
+      "Implementing role-based access control for landlords and tenants.",
+      "Developing a secure and efficient rent payment system."
+    ],
+    "improvements": [
+      "Integrate automated payment reminders for tenants.",
+      "Enhance the dashboard with real-time rent tracking and analytics."
+    ],
+    "detailedDescription": "Urban Shelter is a comprehensive building rent management system that allows landlords to manage their properties efficiently while enabling tenants to pay rent seamlessly. The platform features a secure authentication system, an intuitive dashboard, and a responsive design for a smooth user experience across devices."
+  },
+  {
+    "id": "2",
+    "name": "Chill Gamer",
+    "image": "https://i.ibb.co.com/7zmYs8F/chillgamer.png",
+    "description": "A review platform for gamers to share and find game reviews.",
+    "techStack": ["Vue.js", "Firebase", "Express.js", "MongoDB"],
+    "liveLink": "https://assignment-10-arijit.web.app/",
+    "githubLink": "https://github.com/programming-hero-web-course2/b10-a10-client-side-ImArijitBasu",
+    "challenges": [
+      "Implementing a secure authentication system.",
+      "Managing user-generated content effectively."
+    ],
+    "improvements": [
+      "Introduce a recommendation system based on user preferences.",
+      "Optimize performance for high user traffic."
+    ],
+    "detailedDescription": "Chill Gamer provides a space for gamers to review and explore games. It includes a user-friendly interface, robust authentication, and moderation tools for managing reviews."
+  },
+  {
+    "id": "3",
+    "name": "Discount PRO",
+    "image": "https://i.ibb.co.com/56CVKtZ/discount.png",
+    "description": "A coupon collecting application to save on shopping.",
+    "techStack": ["React.js", "Tailwind CSS", "Firebase", "MongoDB"],
+    "liveLink": "https://discount-pro-89559.web.app/",
+    "githubLink": "https://github.com/programming-hero-web-course1/b10-a9-authentication-ImArijitBasu",
+    "challenges": [
+      "Synchronizing coupon availability in real-time.",
+      "Creating a dynamic dashboard for analytics."
+    ],
+    "improvements": [
+      "Add personalized coupon suggestions.",
+      "Integrate with third-party e-commerce APIs."
+    ],
+    "detailedDescription": "Discount PRO helps users save on their shopping by collecting and managing coupons. It features a real-time coupon tracker, analytics dashboard, and user-friendly design."
+  },
+  {
+    "id": "4",
+    "name": "RentRide",
+    "image": "https://i.ibb.co.com/X2N3MCp/Capture.png",
+    "description": "A car rental system offering seamless booking and management.",
+    "techStack": [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Firebase Authentication"
+    ],
+    "liveLink": "https://rentride-assignment-11.web.app/",
+    "githubLink": "https://github.com/programming-hero-web-course2/b10a11-client-side-ImArijitBasu",
+    "challenges": [
+      "Implementing real-time availability of vehicles.",
+      "Integrating Firebase Authentication with role-based access control."
+    ],
+    "improvements": [
+      "Develop a feature to calculate and display estimated rental costs in real time.",
+      "Add support for additional payment methods and coupons."
+    ],
+    "detailedDescription": "RentRide is a car rental platform that enables users to browse available cars, book them online, and manage bookings efficiently. The admin panel allows for easy car management, and the system ensures security through Firebase Authentication. Its responsive design ensures compatibility across devices."
+  }
+]

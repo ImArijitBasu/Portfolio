@@ -21,7 +21,7 @@ const Project = ({ project }) => {
 //    improvements
   return (
     <div>
-      <div className="card lg:card-side bg-base-100 shadow-2xl hover:shadow-transparent hover:scale-95 transition-all duration-300 ease-in-out">
+      <div className="card lg:card-side bg-base-100 shadow-2xl hover:shadow-transparent hover:scale-95 transition-all duration-300 ease-in-out h-full">
         <figure className="max-w-96 h-96 p-10">
           <img
             src={image}
