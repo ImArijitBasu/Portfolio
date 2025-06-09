@@ -23,7 +23,7 @@ const Navbar = () => {
               : " text-white hover:text-red-500"
           } transition-all duration-300 px-5 mx-1`}
         >
-          Home
+          <Link to="/">Home</Link>
         </a>
       </li>
       <li>
