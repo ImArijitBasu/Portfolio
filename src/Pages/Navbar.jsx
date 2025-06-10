@@ -94,12 +94,12 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              className={`menu menu-sm dropdown-content ${isScrolled ? "bg-blue-100":"bg-blue-700"} rounded-b-box z-[1] mt-3 w-52 p-2 shadow`}
             >
               {navButtons}
             </ul>
           </div>
-          {/* <img width="100px" className="object-fill" src="/logo.png" alt="" /> */}
+
           <h1 className="uppercase font-extrabold text-4xl">
             ar<span className="text-red-500">i</span>jit
           </h1>
