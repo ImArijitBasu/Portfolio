@@ -58,10 +58,10 @@ const Banner = () => {
           </div>
         </div>
         <div className="md:w-1/2 border-b-8 rounded-3xl lg:rounded-bl-full bg-gradient-to-t from-blue-500 via-transparent to-transparent border-orange-300">
-          <div className="w-96 h-96 border rounded-full overflow-hidden flex items-center justify-center group">
+          <div className="w-96 h-96 border-b-4 border-blue-300 hover:border-blue-700 ease-linear rounded-full overflow-hidden flex items-center justify-center group transform rotate-45 bg-gradient-to-t from-blue-300  to-blue-100 hover:via-blue-200 hover:pt-2 transition-all duration-200">
             <img
-              className="w-[130%] h-[130%] object-cover object-center transition-transform duration-300 ease-in-out group-hover:scale-150"
-              src="/myImage2.jpg"
+              className="w-[87%] transition-transform duration-300 ease-in-out scale-100 group-hover:scale-110 transform -rotate-45"
+              src="/myImage.png"
               alt="Profile"
             />
           </div>
