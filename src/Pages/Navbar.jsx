@@ -68,7 +68,7 @@ const Navbar = () => {
   return (
     <div>
       <div
-        className={`navbar backdrop-blur-lg border-b-2 border-r-8 border-r-transparent border-b-blue-700 sm:border-transparent md:border-transparent lg:border-blue-700 md:rounded-r-full lg:rounded-r-full fixed top-0 left-0 container z-10 ${
+        className={`navbar backdrop-blur-lg border-b-2 border-r-8 border-r-transparent border-b-blue-700 sm:border-transparent md:border-transparent lg:border-blue-700 md:rounded-r-full lg:rounded-r-full fixed top-0 left-0 container gap-12 z-10 max-w-fit sm:max-w-full md:max-w-3xl lg:max-w-5xl xl:max-w-6xl 2xl:max-w-7xl ${
           isScrolled
             ? "bg-blue-100 bg-opacity-50 mt-0"
             : "bg-blue-700 text-white mt-1"
@@ -107,7 +107,7 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{navButtons}</ul>
         </div>
-        <div className="navbar-end">
+        <div className="justify-end sm:w-fit md:w-1/2">
           <a
             href="https://drive.google.com/file/d/1PeQ4zS_2dHBO2VY9LbirPprkwmO1rMk9/view?usp=drive_link"
             target="_blank"
