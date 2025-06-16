@@ -3,8 +3,8 @@ import { Typewriter } from "react-simple-typewriter";
 
 const About = () => {
   return (
-    <section id="about-me" className="container mx-auto p-8">
-      <div className="flex flex-col md:flex-row ">
+    <section id="about-me" className="container mx-auto p-8 lg:h-screen flex">
+      <div className="flex flex-col md:flex-row justify-center items-stretch ">
         <div className="md:w-2/5">
           <h2 className="text-3xl font-semibold text-center mb-6 uppercase md:border-r-8 md:mr-5 h-full flex justify-center items-center border-blue-900 bg-gradient-to-tr from-blue-500 to-cyan-300 text-white relative">
             <span className="opacity-0 absolute">who am i?</span>
