@@ -28,7 +28,7 @@
     "name": "Chill Gamer",
     "image": "https://i.ibb.co.com/7zmYs8F/chillgamer.png",
     "description": "A review platform for gamers to share and find game reviews.",
-    "techStack": ["Vue.js", "Firebase", "Express.js", "MongoDB"],
+    "techStack": ["React.js", "Firebase", "Express.js", "MongoDB"],
     "liveLink": "https://assignment-10-arijit.web.app/",
     "githubLink": "https://github.com/programming-hero-web-course2/b10-a10-client-side-ImArijitBasu",
     "challenges": [

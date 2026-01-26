@@ -1,29 +1,29 @@
-import React from "react";
-import Navbar from "../Pages/Navbar";
-import Banner from "../Pages/Banner";
+
 import About from "../Pages/About";
-import SkillSet from "../Pages/SkillSet";
-import Projects from "../Pages/Projects";
+// import Portfolio from "../Pages/Portfolio";
+import Skills from "../Pages/Skills";
 import Contact from "../Pages/Contact";
+import Footer from "../Pages/Footer";
+import Banner from "../Pages/Banner";
+import Projects from "../Pages/Projects";
+
 const AllPages = () => {
   return (
-      <div className="mt-10">
-        <div id="home">
-          <Banner></Banner>
-        </div>
-        <div id="about">
-          <About></About>
-        </div>
-        <div id="skills">
-          <SkillSet></SkillSet>
-        </div>
-        <div id="projects">
-          <Projects></Projects>
-        </div>
-        <div id="projects">
-          <Contact></Contact>
-        </div>
-      </div>
+    <div className="bg-black">
+      {/* <Home /> */}
+      {/* <div className="border-t border-gray-900"></div> */}
+      <Banner />
+      <div className="border-t border-gray-900"></div>
+      <About />
+      <div className="border-t border-gray-900"></div>
+      {/* <Portfolio /> */}
+      <Skills />
+      <div className="border-t border-gray-900"></div>
+      <Projects/>
+      <div className="border-t border-gray-900"></div>
+      <Contact />
+      <Footer />
+    </div>
   );
 };
 
