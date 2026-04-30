@@ -1,6 +1,7 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 import Navbar from "../Pages/Navbar";
+import BackToTop from "../Components/BackToTop";
 
 const Main = () => {
   return (
@@ -11,6 +12,7 @@ const Main = () => {
         {/* Adjust based on navbar height */}
         <Outlet />
       </div>
+      <BackToTop />
     </div>
   );
 };

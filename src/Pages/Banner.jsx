@@ -256,7 +256,7 @@ const Banner = () => {
                   <div className="flex items-center justify-between">
                     <div>
                       <div className="text-gray-400 text-sm">Current Role</div>
-                      <div className="text-white font-semibold">MERN Stack Intern</div>
+                      <div className="text-white font-semibold">Unemployed !</div>
                     </div>
                     <div className="flex items-center gap-2">
                       <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>

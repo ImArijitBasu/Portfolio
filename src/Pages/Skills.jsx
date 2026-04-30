@@ -17,6 +17,11 @@ import {
   SiFirebase,
   SiPostman,
   SiFigma,
+  SiPostgresql,
+  SiPrisma,
+  SiFramer,
+  SiStripe,
+  SiZod,
 } from "react-icons/si";
 import { TbBrandVscode } from "react-icons/tb";
 
@@ -32,6 +37,7 @@ const Skills = () => {
         { name: "JavaScript (ES6+)", level: 90, icon: <FaJs /> },
         { name: "TypeScript", level: 80, icon: <SiTypescript /> },
         { name: "Tailwind CSS", level: 95, icon: <SiTailwindcss /> },
+        { name: "Framer Motion", level: 85, icon: <SiFramer /> },
         { name: "Responsive UI", level: 95, icon: <FaCss3Alt /> },
       ],
     },
@@ -41,6 +47,7 @@ const Skills = () => {
       items: [
         { name: "Node.js", level: 85, icon: <FaNodeJs /> },
         { name: "Express.js", level: 80, icon: <SiExpress /> },
+        { name: "Prisma ORM", level: 80, icon: <SiPrisma /> },
         { name: "JWT Authentication", level: 85, icon: <FaDatabase /> },
         { name: "REST API Development", level: 85, icon: <FaNodeJs /> },
       ],
@@ -49,6 +56,7 @@ const Skills = () => {
       category: "Database & Auth",
       icon: <FaDatabase className="text-2xl text-purple-500" />,
       items: [
+        { name: "PostgreSQL", level: 90, icon: <SiPostgresql /> },
         { name: "MongoDB", level: 80, icon: <SiMongodb /> },
         { name: "Mongoose", level: 75, icon: <FaDatabase /> },
         { name: "Firebase Auth", level: 85, icon: <SiFirebase /> },
@@ -56,13 +64,14 @@ const Skills = () => {
       ],
     },
     {
-      category: "Tools",
+      category: "Tools & Others",
       icon: <FaGitAlt className="text-2xl text-orange-500" />,
       items: [
-        { name: "Git", level: 90, icon: <FaGitAlt /> },
-        { name: "GitHub", level: 90, icon: <FaGitAlt /> },
+        { name: "Git & GitHub", level: 90, icon: <FaGitAlt /> },
         { name: "VS Code", level: 95, icon: <TbBrandVscode /> },
         { name: "Postman", level: 85, icon: <SiPostman /> },
+        { name: "Stripe", level: 75, icon: <SiStripe /> },
+        { name: "Zod", level: 85, icon: <SiZod /> },
         { name: "Figma", level: 70, icon: <SiFigma /> },
       ],
     },
@@ -87,13 +96,44 @@ const Skills = () => {
     { name: "Hindi", proficiency: "Intermediate", level: 60 },
   ];
 
+  const certifications = [
+    {
+      issuer: "Programming Hero",
+      title: "Complete Web Development - L1",
+      description: "HTML, CSS, JavaScript, React, Backend",
+      statusText: "2024 • Completed",
+      isOngoing: false,
+    },
+    {
+      issuer: "Programming Hero",
+      title: "Next Level Web Dev - L2",
+      description: "Next.js, TypeScript, Advanced Patterns",
+      statusText: "2025 • Ongoing",
+      isOngoing: true,
+    },
+    {
+      issuer: "Simplilearn",
+      title: "TypeScript Basics",
+      description: "Types, Interfaces, Generics, React",
+      statusText: "2024 • Completed",
+      isOngoing: false,
+    },
+    {
+      issuer: "Simplilearn",
+      title: "Getting Started with NodeJS",
+      description: "Modules, Express, REST APIs",
+      statusText: "2024 • Completed",
+      isOngoing: false,
+    },
+  ];
+
   return (
     <section id="skills" className="py-24 border-t border-gray-900">
       <div className="container-custom">
         {/* Header */}
         <div className="text-center mb-16">
           <div className="text-gray-500 text-sm mb-4 tracking-wider">
-            03 — SKILLS & TECHNOLOGIES
+            02 — SKILLS & TECHNOLOGIES
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
             Technical <span className="text-gray-300">Expertise</span>
@@ -202,54 +242,28 @@ const Skills = () => {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {/* Programming Hero Web Dev */}
-            <div className="card-dark p-6 rounded-lg hover:border-gray-700 transition-all duration-300">
-              <div className="text-gray-500 text-sm mb-2">Programming Hero</div>
-              <h4 className="text-white font-bold mb-2">
-                Complete Web Development - L1
-              </h4>
-              <p className="text-gray-400 text-sm mb-4">
-                HTML, CSS, JavaScript, React, Backend
-              </p>
-              <div className="text-gray-500 text-xs">2024 • Completed</div>
-            </div>
-
-            {/* Programming Hero Next Level */}
-            <div className="card-dark p-6 rounded-lg hover:border-gray-700 transition-all duration-300">
-              <div className="text-gray-500 text-sm mb-2">Programming Hero</div>
-              <h4 className="text-white font-bold mb-2">
-                Next Level Web Dev - L2
-              </h4>
-              <p className="text-gray-400 text-sm mb-4">
-                Next.js, TypeScript, Advanced Patterns
-              </p>
-              <div className="flex items-center gap-2">
-                <span className="text-green-500 text-xs">●</span>
-                <span className="text-gray-500 text-xs">2025 • Ongoing</span>
+            {certifications.map((cert, index) => (
+              <div
+                key={index}
+                className="card-dark p-6 rounded-lg hover:border-gray-700 transition-all duration-300"
+              >
+                <div className="text-gray-500 text-sm mb-2">{cert.issuer}</div>
+                <h4 className="text-white font-bold mb-2">
+                  {cert.title}
+                </h4>
+                <p className="text-gray-400 text-sm mb-4">
+                  {cert.description}
+                </p>
+                {cert.isOngoing ? (
+                  <div className="flex items-center gap-2">
+                    <span className="text-green-500 text-xs">●</span>
+                    <span className="text-gray-500 text-xs">{cert.statusText}</span>
+                  </div>
+                ) : (
+                  <div className="text-gray-500 text-xs">{cert.statusText}</div>
+                )}
               </div>
-            </div>
-
-            {/* TypeScript */}
-            <div className="card-dark p-6 rounded-lg hover:border-gray-700 transition-all duration-300">
-              <div className="text-gray-500 text-sm mb-2">Simplilearn</div>
-              <h4 className="text-white font-bold mb-2">TypeScript Basics</h4>
-              <p className="text-gray-400 text-sm mb-4">
-                Types, Interfaces, Generics, React
-              </p>
-              <div className="text-gray-500 text-xs">2024 • Completed</div>
-            </div>
-
-            {/* Node.js */}
-            <div className="card-dark p-6 rounded-lg hover:border-gray-700 transition-all duration-300">
-              <div className="text-gray-500 text-sm mb-2">Simplilearn</div>
-              <h4 className="text-white font-bold mb-2">
-                Getting Started with NodeJS
-              </h4>
-              <p className="text-gray-400 text-sm mb-4">
-                Modules, Express, REST APIs
-              </p>
-              <div className="text-gray-500 text-xs">2024 • Completed</div>
-            </div>
+            ))}
           </div>
         </div>
 
