@@ -1,16 +1,46 @@
 [
+{
+  "id": "1",
+  "name": "MediStore",
+  "image": "https://i.ibb.co.com/zh50WJf2/medistore-xi-vercel-app.png",
+  "description": "A full-stack pharmacy management system built with Next.js 16, Express 5, and PostgreSQL.",
+  "techStack": [
+    "Next.js 16",
+    "React 19",
+    "TypeScript",
+    "Tailwind CSS 4",
+    "Radix UI",
+    "React Hook Form",
+    "Zod",
+    "Better Auth",
+    "Node.js",
+    "Express 5",
+    "Prisma 7",
+    "PostgreSQL",
+    "Tsup",
+    "TSX"
+  ],
+  "liveLink": "https://medistore-xi.vercel.app",
+  "githubLink": "https://github.com/ImArijitBasu/MediStore",
+  "challenges": [
+    "Designing a scalable full-stack architecture with Next.js frontend and Express 5 backend.",
+    "Integrating Prisma with PostgreSQL using @prisma/adapter-pg.",
+    "Implementing secure authentication with Better Auth across client and server.",
+    "Managing type safety across the entire application using TypeScript."
+  ],
+  "improvements": [
+    "Add inventory analytics dashboard with real-time reporting.",
+    "Implement role-based analytics for admin, seller, and customer.",
+    "Add automated low-stock alerts and sales tracking system."
+  ],
+  "detailedDescription": "MediStore is a full-stack pharmacy management system designed to manage medicines, users, and sales operations efficiently. The frontend is built with Next.js 16 and React 19 using TypeScript and Tailwind CSS 4 for a modern UI. Radix UI ensures accessibility and reusable components. The backend is powered by Express 5 with Prisma ORM connected to PostgreSQL. Authentication is handled using Better Auth on both client and server. The project follows a modular and scalable architecture suitable for production-level applications."
+},
   {
-    "id": "1",
+    "id": "2",
     "name": "Urban Shelter",
     "image": "https://i.ibb.co/kgDd4k0X/urban-shelter-building-web-app-1.png",
     "description": "A building rent management system streamlining landlord-tenant interactions.",
-    "techStack": [
-      "React.js",
-      "Next.js",
-      "Node.js",
-      "Express.js",
-      "MongoDB"
-    ],
+    "techStack": ["React.js", "Node.js", "Express.js", "MongoDB"],
     "liveLink": "https://urban-shelter-building.web.app/",
     "githubLink": "https://github.com/ImArijitBasu/Urban_Shelter-client",
     "challenges": [
@@ -24,7 +54,7 @@
     "detailedDescription": "Urban Shelter is a comprehensive building rent management system that allows landlords to manage their properties efficiently while enabling tenants to pay rent seamlessly. The platform features a secure authentication system, an intuitive dashboard, and a responsive design for a smooth user experience across devices."
   },
   {
-    "id": "2",
+    "id": "3",
     "name": "Chill Gamer",
     "image": "https://i.ibb.co.com/7zmYs8F/chillgamer.png",
     "description": "A review platform for gamers to share and find game reviews.",
@@ -42,7 +72,7 @@
     "detailedDescription": "Chill Gamer provides a space for gamers to review and explore games. It includes a user-friendly interface, robust authentication, and moderation tools for managing reviews."
   },
   {
-    "id": "3",
+    "id": "4",
     "name": "Discount PRO",
     "image": "https://i.ibb.co.com/56CVKtZ/discount.png",
     "description": "A coupon collecting application to save on shopping.",
@@ -60,7 +90,7 @@
     "detailedDescription": "Discount PRO helps users save on their shopping by collecting and managing coupons. It features a real-time coupon tracker, analytics dashboard, and user-friendly design."
   },
   {
-    "id": "4",
+    "id": "5",
     "name": "RentRide",
     "image": "https://i.ibb.co.com/X2N3MCp/Capture.png",
     "description": "A car rental system offering seamless booking and management.",
